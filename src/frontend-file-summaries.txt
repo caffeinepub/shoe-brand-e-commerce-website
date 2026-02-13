@@ -1,0 +1,19 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup including new sales pitch route, authentication handling, profile setup modal, Stripe configuration modal, and cart context provider.",
+  "frontend/src/components/Layout.tsx": "Layout component with responsive header navigation including new \"Sales Pitch\" link, shopping cart icon with item count, login/logout functionality, mobile menu, and footer with brand information and social links.",
+  "frontend/src/pages/HomePage.tsx": "Homepage with hero section featuring background image and tagline, featured products grid, and value proposition cards highlighting shipping, security, and returns.",
+  "frontend/src/pages/CatalogPage.tsx": "Product catalog page displaying all available shoes in a responsive grid with product images, names, descriptions, and prices.",
+  "frontend/src/pages/ProductDetailPage.tsx": "Product detail page showing large product image, full description, price, quantity selector, and add-to-cart functionality with toast notifications.",
+  "frontend/src/pages/CartPage.tsx": "Shopping cart page with item list, quantity controls, remove functionality, order summary with shipping calculation, and checkout button that creates Stripe session.",
+  "frontend/src/pages/AboutPage.tsx": "About page telling the brand story with mission statement and value cards highlighting craftsmanship, customer service, quality, and sustainability.",
+  "frontend/src/pages/ContactPage.tsx": "Contact page with form for name, email, and message submission, plus contact information cards for email, phone, and address.",
+  "frontend/src/pages/PaymentSuccessPage.tsx": "Payment success confirmation page displayed after successful Stripe checkout, clears cart and provides navigation options.",
+  "frontend/src/pages/PaymentFailurePage.tsx": "Payment failure page displayed when Stripe checkout fails, provides options to return to cart or contact support.",
+  "frontend/src/pages/AdminPage.tsx": "Admin panel with tabs for product management (add/delete products with image upload) and viewing contact form submissions.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including products, user profiles, contact forms, and Stripe checkout session creation.",
+  "frontend/src/contexts/CartContext.tsx": "Cart context provider managing shopping cart state with localStorage persistence, add/remove/update operations, and total calculations.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile setup requiring name and email, prevents dismissal until completed.",
+  "frontend/src/components/StripeSetupModal.tsx": "Modal dialog for admin to configure Stripe payment settings with secret key and allowed countries on first login.",
+  "frontend/src/index.css": "Global styles with OKLCH color system customized for a clean, modern shoe brand aesthetic with neutral tones and proper contrast for light and dark modes.",
+  "frontend/src/pages/SalesPitchPage.tsx": "Sales pitch and listing description page showcasing the e-commerce website's value proposition, feature highlights, seller's note, pricing information ($800-$1,500 USD), optional upsells, and marketplace listing details formatted for platforms like Flippa or Fiverr."
+}
